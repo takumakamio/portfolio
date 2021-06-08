@@ -16,7 +16,11 @@
     .imgContainer {
       width: 700px;
       height: 700px;
-      background-color: crimson;
+      background-color: rgb(6, 90, 216);
+      border-top: 50px solid #f07f92;
+      border-right: 50px solid #f6da69;
+      border-bottom: 50px solid #b2ce54;
+      border-left: 50px solid #6aa7cd;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
@@ -28,7 +32,7 @@
       }
 
       img {
-        height: 90%;
+        height: 100%;
 
         @include mobile{
           height: 50%;

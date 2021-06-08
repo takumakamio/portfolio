@@ -1,6 +1,6 @@
 import "./menu.scss";
 
-export default function Menu({ menuOpen, setMenuOpen }) {
+export const Menu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div className={"menu "+(menuOpen && "active")}>
       <ul>
