@@ -21,7 +21,6 @@ export default function Testimonials() {
       icon: "assets/youtube.png",
       desc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
-      featured: true,
     },
     {
       id: 3,

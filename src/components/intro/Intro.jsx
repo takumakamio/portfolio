@@ -9,8 +9,8 @@ export default function Intro() {
     init(textRef.current, {
       showCursor: true,
       backDelay: 1500,
-      backSpeed:70,
-      strings: ["よっ", "よかったら" ,"塩振りますよ"],
+      backSpeed:0,
+      strings: ["3", "2" ,"1","ダー"],
     });
   }, []);
 
@@ -23,10 +23,10 @@ export default function Intro() {
       </div>
       <div className="right">
         <div className="wrapper">
-          <h2>こんにちは</h2>
-          <h1>久保田佳祐です</h1>
+          <h2>俺が社長の</h2>
+          <h1>久保田佳祐</h1>
           <h3>
-            あの <span ref={textRef}></span>
+            やる気があれば何でもできる <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#portfolio">
